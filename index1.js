@@ -7,7 +7,7 @@ function speak(text) {
     text_speak.rate = 1;
     text_speak.volume = 1; // Adjusted volume range
     text_speak.pitch = 2;
-  //  text_speak.lang = "en-GB";
+  // text_speak.lang = "en-GB";
     text_speak.lang = "hi-GB";
     window.speechSynthesis.speak(text_speak);
 }
@@ -48,14 +48,14 @@ btn.addEventListener('click', () => {
 });
 
 const familyDetails = {
-    father: "Deess Raaj",
-    mother: "Nirmala Devi",
-    bigBrother: "Raghav",
-    daughter: "Tania",
+    father: "fathers name",
+    mother: "mothers name",
+    bigBrother: "brother",
+    daughter: "sister",
     sweetSon: "you",
-    myFathersBrother: "Rakesh Kumar",
-    hisWife: "Anu",
-    theirChildren: "Rohit and Rakshit"
+    myFathersBrother: "",
+    hisWife: "",
+    theirChildren: ""
 };
 
 function getFamilyDescription() {
@@ -74,7 +74,7 @@ const friends = {
     bhai: "bunti",
     bhai2: "monti",
     bhai3: "piyush sharma",
-    love: "kanika jamwal"
+    love: "no one"
 };
 
 function getFriendDescription() {
